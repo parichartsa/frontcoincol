@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../NiceAdmin/assets/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "front"
+	}
+}

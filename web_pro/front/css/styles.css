@@ -1,0 +1,232 @@
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-right: 10px;
+}
+.logo img {
+  max-height: 40px; 
+  width: auto; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    position: relative;
+}
+
+nav ul li:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+.signup-box {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+  
+.signup-button {
+  background-color: white;
+  color: #333;
+  border: solid 1px #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+
+.signup-button:hover {
+  background-color: #333;
+  color: #fff;  
+}
+
+header {
+    background-color: #fff;
+    color: #BD1550;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.different-color {
+    color: #333; 
+  }
+.icon {
+    width: 40px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+.content {
+    position: relative;
+    overflow: hidden;
+}
+
+.content:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./image/image 32.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.box {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-basis: 30%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto;
+    background: linear-gradient(94.11deg, rgba(253, 253, 253, 0.6) 2.29%, rgba(234, 234, 234, 0.4) 95.27%);
+    backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 10px #888888;
+}
+  
+.box img {
+    flex-shrink: 0;
+    margin-right: 10px;
+    width: 400px;
+}
+.box h3, .box p {
+    margin-left: auto; 
+  }
+
+
+.big-box {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  max-width: 1300px; 
+  margin-left: auto; 
+  margin-right: auto;
+  align-items: center;
+  background: linear-gradient(94.11deg, rgba(253, 253, 253, 0.6) 2.29%, rgba(234, 234, 234, 0.4) 95.27%);
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 0px 10px #888888;
+}
+
+/*knowledge zone */
+.knowledge-box {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  width: 800px;
+  margin-bottom: 10px;
+  margin-left: auto; 
+  margin-right: auto;
+  align-items: center;
+  background: linear-gradient(94.11deg, rgba(253, 253, 253, 0.6) 2.29%, rgba(234, 234, 234, 0.4) 95.27%);
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 0px 10px #888888;
+}
+
+.knowledge-content {
+  position: absolute;
+  left: 50%; 
+  top: 200px;
+  transform: translateX(-50%); 
+}
+
+details {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+details summary {
+  background-color: #f5f5f5;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: '\25B6';
+  color: #333;
+  font-size: 12px;
+  margin-right: 5px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+details[open] summary::before {
+  content: '\25BC';
+}
+
+details p {
+  padding: 10px;
+  background-color: linear-gradient(94.11deg, rgba(253, 253, 253, 0.6) 2.29%, rgba(234, 234, 234, 0.4) 95.27%);
+}
+
+/* เพิ่มสีสัน */
+details summary {
+  background-color: rgb(255, 200, 0);
+  backdrop-filter: blur(10px);
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+details summary:hover {
+  background-color: rgba(255, 200, 0, 0.709);
+}
+details[open] summary {
+  background-color: linear-gradient(94.11deg, rgba(253, 253, 253, 0.6) 2.29%, rgba(234, 234, 234, 0.4) 95.27%);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+  

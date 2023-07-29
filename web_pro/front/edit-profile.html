@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Profile</title>
+  <link rel="stylesheet" type="text/css" href="./css/profile.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <img src="./image/logo.png" alt="Logo">
+        </div>
+        <ul>
+          <li><a href="#">หน้าแรก</a></li>
+          <li><a href="./history.html">ประวัติ</a></li>
+          <li><a href="#">ผลิตภัณฑ์</a></li>
+          <li><a href="./knowledge.html">ความรู้เกี่ยวกับเหรียญกษาปณ์</a></li>
+          <ul class="profile">
+            <a href="#">
+                <img src="./image/image 9.png" alt="Profile" class="profile-image">
+            </a> 
+          <div class="signup-box">
+            <button class="signup-button">Log out</button>
+          </div>
+        </ul>
+      </nav>
+
+    <div class="edit-container">
+        <h1>Edit Profile</h1>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+          
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email" required>
+          
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" required>
+          
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+          
+          <label for="line">ID Line</label>
+          <input type="text" id="line" name="line" placeholder="Your ID Line">
+          
+          <button type="submit">Save</button>
+        </form>
+    </div>
+  </body>
+  </html>
